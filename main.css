@@ -1,0 +1,56 @@
+.root {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.sort {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #000;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.delete {
+    padding: 5px;
+    background-color: red;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.done {
+    padding: 5px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+.add-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_add {
+    margin: 10px 0;
+}
+
+.item {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.button-red {
+    width: 100px;
+}
+
+.item__text {
+    width: 300px;
+}
